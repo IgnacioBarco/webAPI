@@ -12,4 +12,4 @@ npm install cross-env
 
     añadimos: "dev": "cross-env DEBUG=webapi:* nodemon"
 
-    ejecutamos con: npm dev
+    ejecutamos con: npm run dev
