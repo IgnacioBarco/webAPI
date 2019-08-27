@@ -21,3 +21,9 @@ instalamos mongodb
     npm install mongoose --save
 
     
+
+## API Methods
+
+### Agents list
+
+http://localhost:3000/apiv1/anuncios

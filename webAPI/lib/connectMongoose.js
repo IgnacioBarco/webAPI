@@ -15,7 +15,7 @@ conn.once('open', () => {
 });
 
 // conectar
-mongoose.connect('mongodb://localhost:27017/local', { useNewUrlParser: true });
+mongoose.connect('mongodb://localhost:27017/datos', { useNewUrlParser: true });
 
 // exportar la conexión (opcional)
 module.exports = conn;

@@ -6,14 +6,15 @@ const mongoose = require('mongoose');
 const anunciosSchema = mongoose.Schema({
     nombre: String,
     venta: Boolean,
-    precio: Number,
-    foto: String,
-    tags: [String]
+    precio: String,
+    foto: String
+    //,
+    //tags: [String]
 }
     //, { collection: 'agentes'} // para saltarse la pluralización
 );
 
 // creamos el modelo de agente
-const Agente = mongoose.model('Agente', anunciosSchema);
+const Anuncio = mongoose.model('Anuncio', anunciosSchema);
 
-module.exports = Agente;
+module.exports = Anuncio;
