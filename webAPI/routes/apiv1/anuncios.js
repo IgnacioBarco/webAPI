@@ -36,7 +36,7 @@ router.get('/prueba2', async (req, res, next) => {
         const filter = {};
 
         if (nombre) {
-            filter.nombre = new RegExp(req.query.nombre, "i");;
+            filter.nombre = new RegExp(req.query.nombre, "i");
         }
 
         if (venta) {

@@ -1,0 +1,39 @@
+{
+  "anuncios": [
+    {
+      "nombre": "Iphone",
+      "venta": false,
+      "precio": 900,
+      "foto": "iphone.jpg",
+      "tags": ["mobile"]
+    },
+    {
+      "nombre": "Galaxy s5",
+      "venta": false,
+      "precio": 200,
+      "foto": "galaxys5.jpg",
+      "tags": ["mobile"]
+    },
+    {
+      "nombre": "Elephone s8",
+      "venta": true,
+      "precio": 150,
+      "foto": "elephones8.jpg",
+      "tags": ["mobile"]
+    },
+    {
+      "nombre": "Mi A3",
+      "venta": true,
+      "precio": 210,
+      "foto": "mia3.jpg",
+      "tags": ["mobile"]
+    },
+    {
+      "nombre": "bicicleta",
+      "venta": true,
+      "precio": 230.15,
+      "foto": "bicicleta.jpg",
+      "tags": ["lifestyle", "motor"]
+    }
+  ]
+}
