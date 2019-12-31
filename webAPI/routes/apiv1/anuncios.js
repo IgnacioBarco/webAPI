@@ -9,6 +9,7 @@ router.get('/', async (req, res, next) => {
     try {
         const anuncios = await Anuncio.find().exec();
         res.json({ success: true, anuncios: anuncios });
+        
     } catch (err) {
         next(err);
     }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title><%= title %> </title>
 
     <link
       rel="stylesheet"
@@ -14,7 +14,7 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <p>Welcome to <%= title %>  </p>
 
     <div class="card-deck">
       <div class="card border-primary">
@@ -22,8 +22,8 @@
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            qqqqq  <%= result %> hhhouioki
+
           </p>
         </div>
         <div class="card-footer border-primary">
@@ -35,8 +35,31 @@
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+
+            <% for(let i=0; i<result.length; i++) { %>  
+            
+              <%= result[i].nombre %> 
+              <%= result[i].venta %> 
+              <%= result[i].precio %> 
+              <%= result[i].foto %> 
+              <%= result[i].tags %> 
+
+
+
+            <% } %>
+
+
+
+
+
+
+
+
+
+
+
+
+
           </p>
         </div>
         <div class="card-footer">
