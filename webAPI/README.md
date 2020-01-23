@@ -16,9 +16,6 @@ npm install cross-env
 
     añadimos: "dev": "cross-env DEBUG=webapi:* nodemon"
 
-    ejecutamos con: npm run dev
-
-    npm run installDB
 
 instalamos mongodb
 
@@ -26,6 +23,12 @@ instalamos mongodb
 
     npm install mongoose --save
 
+
+-------
+
+npm run installDB
+
+ejecutamos con: npm run dev
     
 
 ## API Methods

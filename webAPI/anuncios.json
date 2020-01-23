@@ -4,70 +4,70 @@
       "nombre": "Iphone",
       "venta": false,
       "precio": 900,
-      "foto": "iphone.jpg",
+      "foto": "/images/iphone.jpg",
       "tags": ["mobile"]
     },
     {
       "nombre": "Galaxy s5",
       "venta": false,
       "precio": 200,
-      "foto": "galaxys5.jpg",
+      "foto": "/images/galaxys5.jpg",
       "tags": ["mobile"]
     },
     {
       "nombre": "Elephone s8",
       "venta": true,
       "precio": 150,
-      "foto": "elephones8.jpg",
+      "foto": "/images/elephones8.jpg",
       "tags": ["mobile"]
     },
     {
       "nombre": "Mi A3",
       "venta": true,
       "precio": 210,
-      "foto": "mia3.jpg",
+      "foto": "/images/mia3.jpg",
       "tags": ["mobile"]
     },
     {
       "nombre": "bicicleta",
-      "venta": true,
+      "venta": false,
       "precio": 230.15,
-      "foto": "bicicleta.jpg",
+      "foto": "/images/bicicleta.jpg",
       "tags": ["lifestyle", "motor"]
     },
     {
       "nombre": "ferrari",
       "venta": true,
       "precio": 50000,
-      "foto": "ferrari.jpg",
+      "foto": "/images/ferrari.jpg",
       "tags": ["motor"]
     },
     {
       "nombre": "botasseguridad",
-      "venta": true,
+      "venta": false,
       "precio": 80,
-      "foto": "botasseguridad.jpg",
+      "foto": "/images/botasseguridad.jpg",
       "tags": ["work"]
     },
     {
       "nombre": "zapatillascorrer",
-      "venta": true,
+      "venta": false,
       "precio": 110,
-      "foto": "zapatillascorrer.jpg",
+      "foto": "/images/zapatillascorrer.jpg",
       "tags": ["lifestyle"]
     },
     {
       "nombre": "balonvolley",
       "venta": true,
       "precio": 40,
-      "foto": "balonvolley.jpg",
+      "foto": "/images/balonvolley.jpg",
       "tags": ["lifestyle"]
     },
     {
       "nombre": "cazadoratrabajo",
       "venta": true,
       "precio": 120,
-      "foto": "cazadoratrabajo.jpg",
+      "foto": "/images/cazadoratrabajo.jpg",
       "tags": ["work"]
     }
   ]

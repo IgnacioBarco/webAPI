@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %> </title>
+    <title><%= title %></title>
 
     <link
       rel="stylesheet"
@@ -14,7 +14,7 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %>  </p>
+    <p>Welcome to <%= title %></p>
 
     <div class="card-deck">
       <div class="card border-primary">
@@ -22,7 +22,7 @@
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">
-            qqqqq  <%= result %> hhhouioki
+            qqqqq <%= result %> hhhouioki
           </p>
         </div>
         <div class="card-footer border-primary">
@@ -30,6 +30,44 @@
         </div>
       </div>
     </div>
+
+    <div
+      class="card 
+             text-center
+             <%= result.venta ? 'border-primary' : 'border-success' %>"
+    >
+      <a href="/<%= result._id %>">
+        <img
+          src="<%= result.foto %>"
+          class="card-img-top img-fluid"
+          alt="<%= result.nombre %>"
+        />
+      </a>
+      <div class="card-body">
+        <h3 class="card-title"><%= result.nombre %></h3>
+        <p class="card-text">
+          <strong>Precio:</strong><%= result.precio %>€
+
+          <br />
+          <br />
+
+          <%= result.venta ? 'Se vende' : 'Se Compra' %>
+        </p>
+      </div>
+      <div
+        class="card-footer 
+                      <%= result.venta ? 'border-primary' : 'border-success' %> 
+                      text-white 
+                      <%= result.venta ? 'bg-primary' : 'bg-success' %>"
+      >
+        <small><%= result.tags %> </small>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <a href="/">Volver</a>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
