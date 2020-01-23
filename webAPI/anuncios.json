@@ -34,6 +34,41 @@
       "precio": 230.15,
       "foto": "bicicleta.jpg",
       "tags": ["lifestyle", "motor"]
+    },
+    {
+      "nombre": "ferrari",
+      "venta": true,
+      "precio": 50000,
+      "foto": "ferrari.jpg",
+      "tags": ["motor"]
+    },
+    {
+      "nombre": "botasseguridad",
+      "venta": true,
+      "precio": 80,
+      "foto": "botasseguridad.jpg",
+      "tags": ["work"]
+    },
+    {
+      "nombre": "zapatillascorrer",
+      "venta": true,
+      "precio": 110,
+      "foto": "zapatillascorrer.jpg",
+      "tags": ["lifestyle"]
+    },
+    {
+      "nombre": "balonvolley",
+      "venta": true,
+      "precio": 40,
+      "foto": "balonvolley.jpg",
+      "tags": ["lifestyle"]
+    },
+    {
+      "nombre": "cazadoratrabajo",
+      "venta": true,
+      "precio": 120,
+      "foto": "cazadoratrabajo.jpg",
+      "tags": ["work"]
     }
   ]
 }
