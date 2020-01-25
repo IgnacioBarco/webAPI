@@ -28,13 +28,21 @@ instalamos mongodb
 
 npm run installDB
 
-ejecutamos con: npm run dev
+ejecutamos con: npm run start
+
+npm run dev
     
 
 ## API Methods
 
 ### Agents list
 
+http://localhost:3000
+
+http://localhost:3000/id
+http://localhost:3000/5e2a2049a402ef0b243b3a30
+
 http://localhost:3000/apiv1/anuncios
 
-http://localhost:3000
+
+http://localhost:3000/apiv1/anuncios/tags

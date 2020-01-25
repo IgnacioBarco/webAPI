@@ -14,9 +14,9 @@ const anunciosSchema = mongoose.Schema(
   //, { collection: 'agentes'} // para saltarse la pluralización
 );
 
-anunciosSchema.statics.list = function({ filter, skip, limit, fields, sort }) {
+anunciosSchema.statics.list = function({ filter, start, limit, fields, sort }) {
   const query = Anuncio.find(filter);
-  query.skip(skip);
+  query.skip(start);
   query.limit(limit);
   query.select(fields);
   query.sort(sort);

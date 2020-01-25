@@ -36,13 +36,12 @@
              text-center
              <%= result.venta ? 'border-primary' : 'border-success' %>"
     >
-      <a href="/<%= result._id %>">
-        <img
-          src="<%= result.foto %>"
-          class="card-img-top img-fluid"
-          alt="<%= result.nombre %>"
-        />
-      </a>
+      <img
+        src="<%= result.foto %>"
+        class="card-img-top img-fluid"
+        alt="<%= result.nombre %>"
+      />
+
       <div class="card-body">
         <h3 class="card-title"><%= result.nombre %></h3>
         <p class="card-text">
