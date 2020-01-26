@@ -84,4 +84,34 @@ router.post("/nuevo", async (req, res, next) => {
   }
 });
 
+/**
+ * para modificar un anuncio
+ */
+// router.put('/modificar/:id', async (req, res, next) => {
+//   try {
+//     const _id = req.params.id;
+//     const data = req.body;
+//     const anuncioGuardado = await Anuncio.findOneAndUpdate({_id: _id}, data, { new: true }).exec();
+//     // new: true --> hace que retorne la versión del agente guardada en la base de datos
+
+//     res.json({ success: true, result: anuncioGuardado });
+//   } catch (err) {
+//     next(err);
+//   }
+// });
+
+/**
+ * Para borrar un anuncio
+ */
+// router.delete('/borrar/:id', async (req, res, next) => {
+//   try {
+//     const _id = req.params.id;
+//     await Anuncio.deleteOne({ _id: _id}).exec();
+//     res.json({ success: true });
+
+//   } catch (err) {
+//     next(err);
+//   }
+// });
+
 module.exports = router;
