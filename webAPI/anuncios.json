@@ -22,49 +22,49 @@
       "tags": ["mobile"]
     },
     {
-      "nombre": "Mi A3",
+      "nombre": "Xiaomi Mi A3",
       "venta": true,
       "precio": 210,
       "foto": "/images/mia3.jpg",
       "tags": ["mobile"]
     },
     {
-      "nombre": "bicicleta",
+      "nombre": "Bicicleta",
       "venta": false,
       "precio": 230.15,
       "foto": "/images/bicicleta.jpg",
       "tags": ["lifestyle", "motor"]
     },
     {
-      "nombre": "ferrari",
+      "nombre": "Ferrari",
       "venta": true,
       "precio": 50000,
       "foto": "/images/ferrari.jpg",
       "tags": ["motor"]
     },
     {
-      "nombre": "botasseguridad",
+      "nombre": "Botas",
       "venta": false,
       "precio": 80,
       "foto": "/images/botasseguridad.jpg",
       "tags": ["work"]
     },
     {
-      "nombre": "zapatillascorrer",
+      "nombre": "Zapatillas",
       "venta": false,
       "precio": 110,
       "foto": "/images/zapatillascorrer.jpg",
       "tags": ["lifestyle"]
     },
     {
-      "nombre": "balonvolley",
+      "nombre": "Balón",
       "venta": true,
       "precio": 40,
       "foto": "/images/balonvolley.jpg",
       "tags": ["lifestyle"]
     },
     {
-      "nombre": "cazadoratrabajo",
+      "nombre": "Chaleco",
       "venta": true,
       "precio": 120,
       "foto": "/images/cazadoratrabajo.jpg",

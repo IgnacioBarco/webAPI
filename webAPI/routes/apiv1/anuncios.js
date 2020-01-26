@@ -5,6 +5,11 @@ const router = express.Router();
 
 const Anuncio = require("../../models/Anuncio");
 
+/**
+ * devuelve los anuncios
+ * si no lleva params devuelve todos
+ * si lleva, los devuelve filtrados
+ */
 router.get("/", async (req, res, next) => {
   try {
     const nombre = req.query.nombre;
@@ -31,19 +36,29 @@ router.get("/", async (req, res, next) => {
       filter.tags = tag;
     }
 
+    /**
+     * -x menos de x
+     * x- mas de x
+     * x-y entre x e y
+     * x ese valor 
+     */
     if (typeof precio !== "undefined") {
       filter.precio = {};
       let importes = precio.split("-");
 
       if (precio.startsWith("-")) {
         filter.precio.$lt = importes[1];
+
       } else if (precio.endsWith("-")) {
         filter.precio.$gt = importes[0];
+
       } else if (precio.includes("-")) {
         filter.precio.$gt = importes[0];
         filter.precio.$lt = importes[1];
+
       } else {
         filter.precio = precio;
+
       }
     }
 
@@ -61,17 +76,24 @@ router.get("/", async (req, res, next) => {
   }
 });
 
+/**
+ * devuelve los tags
+ */
 router.get("/tags", (req, res, next) => {
   try {
     const anuncios = Anuncio.tags();
     // res.json({ success: true, anuncios: anuncios });
     res.json(anuncios);
     res.send("ok");
+
   } catch (err) {
     next(err);
   }
 });
 
+/**
+ * crea un nuevo anuncio
+ */
 router.post("/nuevo", async (req, res, next) => {
   try {
     const data = req.body;
