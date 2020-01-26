@@ -72,4 +72,16 @@ router.get("/tags", (req, res, next) => {
   }
 });
 
+router.post("/nuevo", async (req, res, next) => {
+  try {
+    const data = req.body;
+    const anuncio = new Anuncio(data);
+    const anuncioGuardado = await anuncio.save();
+
+    res.json({ success: true, result: anuncioGuardado });
+  } catch (err) {
+    next(err);
+  }
+});
+
 module.exports = router;

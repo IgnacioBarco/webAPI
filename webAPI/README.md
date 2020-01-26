@@ -44,5 +44,6 @@ http://localhost:3000/5e2a2049a402ef0b243b3a30
 
 http://localhost:3000/apiv1/anuncios
 
-
 http://localhost:3000/apiv1/anuncios/tags
+
+http://localhost:3000/apiv1/anuncios/nuevo
